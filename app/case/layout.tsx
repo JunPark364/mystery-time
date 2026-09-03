@@ -23,7 +23,16 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     remainSeconds,
   ).padStart(2, "0")}`;
 
-  const players = ["형구", "상현", "광호", "환석", "동욱", "형진", "용현"];
+  const players = [
+    "Player_1",
+    "Player_2",
+    "Player_3",
+    "Player_4",
+    "Player_5",
+    "Player_6",
+    "Player_7",
+    "Player_8",
+  ];
 
   return (
     <div className="flex flex-col flex-1 items-center justify-between gap-4 bg-zinc-50 font-kmu dark:bg-black">

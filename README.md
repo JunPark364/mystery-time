@@ -1,8 +1,8 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## 미스터리 타임
 
-## Getting Started
+### 개발 서버 실행
 
-First, run the development server:
+개발 서버 열기:
 
 ```bash
 npm run dev
@@ -14,23 +14,20 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+브라우저에서 [http://localhost:3000](http://localhost:3000) 열기
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 사용자 이름 변경
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+`app/case/layout.tsx` 파일에서 players 배열 변수 값 변경
 
-## Learn More
+### 문제 페이지 메뉴얼
 
-To learn more about Next.js, take a look at the following resources:
+플레이어 아이콘 클릭 : 행동 타이머 1분 추가
+플레이어 이름 클릭 : 행동 타이머 초기화
+플레이어 상태칸 클릭 : 플레이어 상태 / 플레이어 등수 (1등, 2등 3등) 변경
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 정답 페이지 메뉴얼
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+정답 페이지 진입 url : /answer/`[문제번호]`
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+정답 텍스트 클릭 시, 음성 해설 재생

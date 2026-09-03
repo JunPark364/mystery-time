@@ -19,6 +19,10 @@ const hints: HintProps[] = [
     content: "캐서린은 매일 일기를 쓴다",
   },
   {
+    type: "sentence",
+    content: "캐서린은 사건 당일 부모님을 간병하러 고향에 내려가 있었다",
+  },
+  {
     type: "picture",
     content: "/case01/actress_hint_02.png",
   },
@@ -29,10 +33,6 @@ const hints: HintProps[] = [
   {
     type: "picture",
     content: "/case01/actress_hint_03.png",
-  },
-  {
-    type: "sentence",
-    content: "사건 당일, 캐서린의 분장실에는 몰래 카메라가 설치되어 있었다",
   },
 ];
 
